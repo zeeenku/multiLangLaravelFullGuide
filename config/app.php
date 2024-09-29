@@ -16,7 +16,8 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
-
+    'default_lang' => 'en',
+    'supported_langs' => ['en','fr','ar'],
     /*
     |--------------------------------------------------------------------------
     | Application Environment
